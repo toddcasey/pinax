@@ -101,5 +101,5 @@ class Command(BaseCommand):
             Site.objects.clear_cache()
         except:
             sys.stderr.write("Error: Unable to save site data.\n")
-            print sys.exc_info()
+            print(sys.exc_info())
         
